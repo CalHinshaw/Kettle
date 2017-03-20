@@ -1,6 +1,8 @@
 %{"distillery": {:hex, :distillery, "1.2.2", "d5a52920cbe2378c8a21dfc83b526b4225944b9dce7bf170fe5f5cddda81ffb3", [:mix], []},
   "elixir_make": {:hex, :elixir_make, "0.4.0", "992f38fabe705bb45821a728f20914c554b276838433349d4f2341f7a687cddf", [:mix], []},
   "gen_stage": {:hex, :gen_stage, "0.11.0", "943bdfa85c75fa624e0a36a9d135baad20a523be040178f5a215444b45c66ea4", [:mix], []},
+  "httpotion": {:hex, :httpotion, "3.0.2", "525b9bfeb592c914a61a8ee31fdde3871e1861dfe805f8ee5f711f9f11a93483", [:mix], [{:ibrowse, "~> 4.2", [hex: :ibrowse, optional: false]}]},
+  "ibrowse": {:hex, :ibrowse, "4.4.0", "2d923325efe0d2cb09b9c6a047b2835a5eda69d8a47ed6ff8bc03628b764e991", [:rebar3], []},
   "nerves": {:hex, :nerves, "0.5.1", "a55d73752e8f271c7aca5fbe47747f07d0e7760b5e858e7f8da17ab06287f49c", [:mix], [{:distillery, "~> 1.0", [hex: :distillery, optional: false]}]},
   "nerves_interim_wifi": {:hex, :nerves_interim_wifi, "0.2.0", "d8fa51dfcdaf06c2d453de03ef22e7a3ca673412718b1c988b5742fb1629d8cc", [:make, :mix], [{:elixir_make, "~> 0.3", [hex: :elixir_make, optional: false]}, {:nerves_network_interface, "~> 0.4.0", [hex: :nerves_network_interface, optional: false]}, {:nerves_wpa_supplicant, "~> 0.3.0", [hex: :nerves_wpa_supplicant, optional: false]}]},
   "nerves_network_interface": {:hex, :nerves_network_interface, "0.4.0", "a8e7662cd56fb4fe9060c891d35c43bbbff692ee6fd2d5efd538717da0cd96b8", [:make, :mix], [{:elixir_make, "~> 0.3", [hex: :elixir_make, optional: false]}]},
