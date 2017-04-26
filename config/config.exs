@@ -12,3 +12,5 @@ use Mix.Config
 # import_config "#{Mix.Project.config[:target]}.exs"
 
 config :nerves_interim_wifi, regulatory_domain: "US"
+
+config :hello_gpio, :ledpin, pin: 26

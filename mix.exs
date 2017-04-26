@@ -23,7 +23,7 @@ defmodule Kettle.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Kettle, []},
-     applications: [:logger, :nerves_interim_wifi, :nerves_network_interface, :httpotion]]
+     extra_applications: [:logger]]
   end
 
   def deps do
@@ -31,7 +31,8 @@ defmodule Kettle.Mixfile do
      {:nerves_runtime, "~> 0.1.0"},
      {:nerves_interim_wifi, "~> 0.2.0"},
      {:nerves_network_interface, "~> 0.4.0"},
-     {:httpotion, "~> 3.0.2"}]
+     {:httpotion, "~> 3.0.2"},
+     {:elixir_ale, "~> 0.5.7"}]
   end
 
   def kernel_modules("rpi3") do
